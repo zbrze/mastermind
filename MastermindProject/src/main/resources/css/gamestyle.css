@@ -1,0 +1,21 @@
+.button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background: none;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+#exit {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#minimize {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#topPane {
+    -fx-background-color: #ffc900;
+    -fx-background-radius: 0 0 10px 10px;
+}

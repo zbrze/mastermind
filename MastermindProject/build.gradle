@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+group 'com.gumisie'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'com.gumisie/Main'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    // Spring core
+    implementation 'org.springframework:spring-core:5.3.12'
+
+    // @Autowired
+    implementation 'org.springframework:spring-beans:5.3.12'
+
+    // ApplicationContext (Injector)
+    implementation 'org.springframework:spring-context:5.3.12'
+
+    // @SpringBootApplication
+    implementation 'org.springframework.boot:spring-boot-starter:2.5.6'
+
+    // Hibernate
+    implementation 'org.hibernate:hibernate-core:5.6.1.Final'
+
+    // MySql driver for JDBC (for Hibernate)
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.27'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+}

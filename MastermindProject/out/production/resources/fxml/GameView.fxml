@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gumisie.GamePresenter">
+   <children>
+      <GridPane fx:id="gridPane1" layoutX="10.0" layoutY="10.0" prefHeight="576.0" prefWidth="263.0">
+      </GridPane>
+      <GridPane fx:id="gridPane2" alignment="TOP_CENTER" layoutX="334.0" layoutY="20.0" prefHeight="503.0" prefWidth="72.0">
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints></GridPane>
+      <ImageView fx:id="but" fitHeight="58.0" fitWidth="58.0" layoutX="341.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Down-Arrow-PNG-Photos.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

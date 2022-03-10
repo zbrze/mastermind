@@ -1,0 +1,20 @@
+#pane{
+    -fx-background-image: url("/img/bg_repeat.png");
+    -fx-background-repeat: repeat;
+    -fx-background-size: 800 1200;
+    -fx-background-position: left top;
+}
+
+ColorSlotView{
+    -fx-effect: dropshadow(three-pass-box, black, 5, 0.3, 0, 0);
+    -fx-padding: 4px;
+}
+
+#gridPane1{
+    -fx-padding: 10px;
+}
+
+#gridPane2{
+    -fx-padding: 10px;
+    -fx-Vgap: 20px;
+}

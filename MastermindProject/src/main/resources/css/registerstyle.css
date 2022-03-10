@@ -1,0 +1,77 @@
+.root {
+    -fx-background-color: #000000;
+    -fx-font-family: sans-serif;
+    -fx-color: #f2f2ed;
+}
+
+.button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background: none;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+#exit {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#minimize {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#signButton:focused{
+    -fx-background-radius: 24px;
+    -fx-background-color: #000000;
+}
+
+#signButton:hover{
+    -fx-background-radius: 24px;
+    -fx-background-color: #8f8a63;
+}
+
+#signButton:pressed{
+    -fx-background-radius: 24px;
+    -fx-background-color: #68d4ae;
+}
+
+#signButton:default{
+    -fx-background-radius: 24px;
+    -fx-background: none;
+}
+
+#signButton{
+    -fx-border: 0;
+    -fx-background: none;
+    -fx-stroke-width: 0;
+    -fx-stroke: null;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+    -fx-border-color:  #ffc900;
+    -fx-padding:  4px 10px;
+    -fx-border-radius:  24px;
+}
+
+#topPane {
+    -fx-background-color: #ffc900;
+    -fx-background-radius: 0 0 15px 15px;
+}
+
+.text-field:focused {
+    -fx-background-color: none;
+    -fx-border-color: #e3de7d;
+    -fx-text-fill: #FFFFFF;
+}
+
+.text-field {
+    -fx-border: 0;
+    -fx-background: none;
+    -fx-stroke-width: 0;
+    -fx-stroke: null;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+    -fx-border-color:  #ffc900;
+    -fx-border-radius:  0px 0px 15px 15px;
+    -fx-text-fill: #7d7d7d;
+}

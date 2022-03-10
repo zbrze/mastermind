@@ -1,0 +1,115 @@
+.root {
+    -fx-background-color: #000000;
+    -fx-font-family: sans-serif;
+    -fx-color: #f2f2ed;
+}
+
+.button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background: none;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+#exit {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#minimize {
+    -fx-background-color: #000000;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+.button {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-border: 0;
+    -fx-background-color: #000000;
+    -fx-stroke-width: 0;
+    -fx-stroke: null;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+    -fx-border-color:  #ffc900;
+    -fx-padding:  4px 10px;
+}
+
+#startGameButton, #scoreBoardButton, #statisticsButton {
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+#startGameButton:focused, #scoreBoardButton:focused, #statisticsButton:focused {
+    -fx-background-radius: 15px;
+    -fx-background-color: #000000;
+}
+
+#startGameButton:hover, #scoreBoardButton:hover, #statisticsButton:hover {
+    -fx-background-radius: 15px;
+    -fx-background-color: #8f8a63;
+}
+
+#startGameButton:pressed, #scoreBoardButton:pressed, #statisticsButton:pressed {
+    -fx-background-radius: 15px;
+    -fx-background-color: #68d4ae;
+}
+
+#loginButton, #registerButton, #logoutButton {
+    -fx-border-radius: 24px;
+    -fx-background-radius: 24px;
+}
+
+#loginButton:focused, #registerButton:focused, #logoutButton:focused {
+    -fx-background-radius: 24px;
+    -fx-background-color: #000000;
+}
+
+#loginButton:hover, #registerButton:hover, #logoutButton:hover {
+    -fx-background-radius: 24px;
+    -fx-background-color: #8f8a63;
+}
+
+#loginButton:pressed, #registerButton:pressed, #logoutButton:pressed {
+    -fx-background-radius: 24px;
+    -fx-background-color: #68d4ae;
+}
+
+.radio-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.radio-button {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-radius: 100px;
+}
+
+.radio-button .radio {
+    -fx-background-color: #ffc900;
+    -fx-padding: 4px 9px 4px 9px;
+    -fx-background-radius: 0px 0px 6px 6px;
+    -fx-boorder-radius: 5px 5px 0px 0px;
+    -fx-border-style: solid;
+    -fx-border-color: #000000;
+    -fx-border-width: 4px;
+}
+
+.radio-button:focused .radio {
+    -fx-background-color: #ffc900;
+    -fx-padding: 4px 9px 4px 9px;
+    -fx-background-radius: 0px 0px 6px 6px;
+    -fx-boorder-radius: 5px 5px 0px 0px;
+    -fx-border-style: solid;
+    -fx-border-color: #000000;
+    -fx-border-width: 4px;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: black;
+    -fx-background-radius: 2px 2px 2px 2px;
+}
+
+#topPane {
+    -fx-background-color: #ffc900;
+    -fx-background-radius: 0 0 15px 15px;
+}
